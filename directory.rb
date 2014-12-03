@@ -1,17 +1,22 @@
-student_count = 9
+#let's put all students into an array
+students = [
+  "Jin Dai",
+  "Huy Le",
+  "Sanda Golcea",
+  "Emily Sas",
+  "Matteo Manzo",
+  "Hannah Carney",
+  "Gus Powell",
+  "Charlie Walsh",
+  "Oliver Lucas"
+]
 
-#first we print the list of students
+# and then print them
 puts "The students of my cohort at Makers Academy"
 puts "------------"
-puts "Jin Dai"
-puts "Huy Le"
-puts "Sanda Golcea"
-puts "Emily Sas"
-puts "Matteo Manzo"
-puts "Hannah Carney"
-puts "Gus Powell"
-puts "Charlie Walsh"
-puts "Oliver Lucas"
+students.each do |student|
+	puts student
+end
 
 #finally we print the total
-puts "Overall, we have #{student_count} great students"
+puts "Overall, we have #{students.length} great students"
