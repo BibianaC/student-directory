@@ -9,3 +9,7 @@ puts "Hannah Carney"
 puts "Gus Powell"
 puts "Charlie Walsh"
 puts "Oliver Lucas"
+
+print "Overall, we have "
+print 9
+print " great students"
